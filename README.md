@@ -35,8 +35,9 @@ npm run dev
 
 Configure the required MongoDB connection in `server/.env` before starting the backend.
 
-Project Structure
+## Project Structure
 
+```text
 icsi418y-pa3/
 ├── client/
 │   ├── public/
@@ -58,6 +59,8 @@ icsi418y-pa3/
 ├── .gitignore
 ├── package-lock.json
 └── README.md
+```
 
 ## Database
 The application uses the `pa2` database with three collections: `users`, `projects`, and `project_memberships`.
+
